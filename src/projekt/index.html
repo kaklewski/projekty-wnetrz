@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pracownia Projektowania Wnętrz</title>
+
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="../favicon/apple-touch-icon.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="../favicon/favicon-32x32.png" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="../favicon/favicon-16x16.png" />
+		<link rel="manifest" href="../favicon/site.webmanifest" />
+
+		<script type="module" src="../JS/main.js" defer></script>
+		<script
+			type="module"
+			src="../JS/populate-project-info.js"
+			defer></script>
+	</head>
+
+	<body>
+		<nav class="nav">
+			<div class="nav__container">
+				<h1>
+					<a href="/" class="logo">Pracownia Projektowania Wnętrz</a>
+				</h1>
+
+				<span class="nav__links">
+					<a href="/#wnetrza" class="nav__link">Wnętrza</a>
+					<a href="/#lazienki" class="nav__link">Łazienki</a>
+					<a href="/#oferta" class="nav__link">Oferta</a>
+					<a href="/#kontakt" class="nav__link">Kontakt</a>
+				</span>
+
+				<button class="hamburger-menu toggle-mobile-nav">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M4 6l16 0" />
+						<path d="M4 12l16 0" />
+						<path d="M4 18l16 0" />
+					</svg>
+				</button>
+			</div>
+		</nav>
+
+		<nav class="mobile-nav" data-open="false">
+			<button class="mobile-nav__close toggle-mobile-nav">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M18 6l-12 12" />
+					<path d="M6 6l12 12" />
+				</svg>
+			</button>
+			<a class="mobile-nav__link" href="/#wnetrza">Wnętrza</a>
+			<a class="mobile-nav__link" href="/#lazienki">Łazienki</a>
+			<a class="mobile-nav__link" href="/#oferta">Oferta</a>
+			<a class="mobile-nav__link" href="/#kontakt">Kontakt</a>
+		</nav>
+
+		<section class="home-section project">
+			<h2>Projekt <span class="project-name"></span></h2>
+			<div class="photo-wrapper">
+				<!-- project photos -->
+			</div>
+
+			<a class="back-button" href="/">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="1.2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-left">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+					<path d="M5 12l14 0" />
+					<path d="M5 12l6 6" />
+					<path d="M5 12l6 -6" />
+				</svg>
+
+				<span> Strona główna </span>
+			</a>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<span>
+					©
+					<span class="footer__year"> 2024</span> Pracownia
+					Projektowania Wnętrz. Wszystkie prawa zastrzeżone.
+				</span>
+				<span>
+					Strona autorstwa
+					<a href="https://kaklewski.pl/">kaklewski.pl</a>
+				</span>
+			</div>
+		</footer>
+	</body>
+</html>

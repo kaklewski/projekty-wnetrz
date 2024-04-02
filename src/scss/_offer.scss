@@ -1,0 +1,39 @@
+.offer {
+	position: relative;
+	background-attachment: fixed;
+	background-image: var(--bg-offer);
+	background-position: center;
+	background-size: cover;
+
+	&__card {
+		padding: 2em 1em;
+		background-color: var(--bg-transparent);
+		border-radius: var(--border-radius);
+		-webkit-box-shadow: var(--shadow);
+		-moz-box-shadow: var(--shadow);
+		box-shadow: var(--shadow);
+		backdrop-filter: var(--backdrop-filter);
+
+		li {
+			line-height: 120%;
+
+			&::marker {
+				color: var(--color-accent);
+			}
+
+			&::first-letter {
+				text-transform: uppercase;
+			}
+
+			&:not(:last-child) {
+				margin-bottom: 0.9em;
+			}
+		}
+	}
+}
+
+@media (width >= 792px) and (width <= 1173px) {
+	.offer__card:last-child {
+		grid-column-end: span 2;
+	}
+}

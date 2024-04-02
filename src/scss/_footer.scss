@@ -1,0 +1,26 @@
+.footer {
+	position: relative;
+	padding: 3em;
+	background-color: var(--bg-default);
+	-webkit-box-shadow: var(--shadow);
+	-moz-box-shadow: var(--shadow);
+	box-shadow: var(--shadow);
+	font-size: 1.3rem;
+
+	&__container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 1em;
+		max-width: 1200px;
+		margin-inline: auto;
+
+		a {
+			transition: color 0.3s;
+
+			&:hover {
+				color: var(--color-accent);
+			}
+		}
+	}
+}
