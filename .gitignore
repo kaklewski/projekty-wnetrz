@@ -24,5 +24,4 @@ dist-ssr
 *.sw?
 
 # Project photos
-src/public/images/*
-dist/images/*
+dist/*
