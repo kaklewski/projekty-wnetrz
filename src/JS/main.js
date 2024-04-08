@@ -19,7 +19,6 @@ function handleMobileNav() {
 		document.body.style.overflow = 'hidden';
 	} else {
 		mobileNav.setAttribute('data-open', 'false');
-
 		// Unlock page when mobile nav is closed
 		document.body.style.overflow = 'auto';
 	}
