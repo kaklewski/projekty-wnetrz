@@ -192,114 +192,72 @@
 		<section class="contact" id="kontakt">
 			<h2>Kontakt</h2>
 			<div class="item-wrapper">
-				<div class="contact__form">
-					<form method="post" action="../php/send-email.php">
-						<label for="name" class="full-width">
-							<span>Imię i nazwisko:</span>
-							<input type="text" name="name" id="name" required />
-						</label>
-
-						<label for="email">
-							<span>Adres email:</span>
-							<input
-								type="email"
-								name="email"
-								id="email"
-								required />
-						</label>
-
-						<label for="phone">
-							<span>Numer telefonu:</span>
-							<input
-								type="tel"
-								name="phone"
-								id="phone"
-								required />
-						</label>
-
-						<label for="message" class="full-width">
-							<span>Wiadomość:</span>
-							<textarea
-								name="message"
-								id="message"
-								spellcheck="true"
-								minlength="30"
-								maxlength="3000"
-								required></textarea>
-						</label>
-
-						<button type="submit" class="full-width">Wyślij</button>
-					</form>
+				<div class="contact__item">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="icon icon-tabler icon-tabler-phone"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						fill="none"
+						stroke-linecap="round"
+						stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path
+							d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+					</svg>
+					<span>
+						<a href="tel:+48501172257">+48 501 172 257</a>
+					</span>
 				</div>
 
-				<div class="contact__info">
-					<div class="contact__info__item">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="icon icon-tabler icon-tabler-phone"
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							stroke-width="1.1"
-							stroke="currentColor"
-							fill="none"
-							stroke-linecap="round"
-							stroke-linejoin="round">
-							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-							<path
-								d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-						</svg>
-						<span>
-							<a href="tel:+48501172257">+48 501 172 257</a>
-						</span>
-					</div>
-
-					<div class="contact__info__item">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="icon icon-tabler icon-tabler-mail"
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							stroke-width="1.1"
-							stroke="currentColor"
-							fill="none"
-							stroke-linecap="round"
-							stroke-linejoin="round">
-							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-							<path
-								d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
-							<path d="M3 7l9 6l9 -6" />
-						</svg>
-						<span>
-							<a href="mailto:projektywnetrz@vp.pl"
-								>projektywnetrz@vp.pl</a
-							>
-						</span>
-					</div>
-
-					<div class="contact__info__item">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							class="icon icon-tabler icon-tabler-map-pin"
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							stroke-width="1.1"
-							stroke="currentColor"
-							fill="none"
-							stroke-linecap="round"
-							stroke-linejoin="round">
-							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-							<path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-							<path
-								d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-						</svg>
-						<span
-							>Pracuję na terenie Torunia, Gdańska, Gdyni, Sopotu
-							i okolic.</span
+				<div class="contact__item">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="icon icon-tabler icon-tabler-mail"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						fill="none"
+						stroke-linecap="round"
+						stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path
+							d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+						<path d="M3 7l9 6l9 -6" />
+					</svg>
+					<span>
+						<a href="mailto:projektywnetrz@vp.pl"
+							>projektywnetrz@vp.pl</a
 						>
-					</div>
+					</span>
+				</div>
+
+				<div class="contact__item">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="icon icon-tabler icon-tabler-map-pin"
+						width="24"
+						height="24"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						fill="none"
+						stroke-linecap="round"
+						stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+						<path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+						<path
+							d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+					</svg>
+					<span
+						>Pracuję na terenie Torunia, Gdańska, Gdyni, Sopotu i
+						okolic.</span
+					>
 				</div>
 			</div>
 		</section>
