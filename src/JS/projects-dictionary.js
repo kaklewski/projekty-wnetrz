@@ -24,9 +24,10 @@ export const interiors = {
 	S003: 10,
 	S002: 14,
 	S001: 9,
-};
+}
 
 export const bathrooms = {
+	L029: 6,
 	L028: 4,
 	L027: 4,
 	L026: 4,
@@ -55,4 +56,4 @@ export const bathrooms = {
 	L003: 4,
 	L002: 5,
 	L001: 4,
-};
+}
