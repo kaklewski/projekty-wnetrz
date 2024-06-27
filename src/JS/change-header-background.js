@@ -7,7 +7,7 @@ const projects = Object.keys(interiors);
 // container to put the photos in
 const photoContainer = document.querySelector('.header__photo-container');
 
-// load the photos (only newer half) and put them in the container
+// load the photos (only the newer half) and put them in the container
 for (let i = 0; i < projects.length / 2; i++) {
 	const newPhoto = document.createElement('img');
 	newPhoto.src = `/images/${projects[i]}/1.webp`;
@@ -45,4 +45,4 @@ function showPhoto() {
 }
 
 // change the photo at intervals
-const interval = setInterval(showPhoto, 6000);
+setInterval(showPhoto, 5000);
