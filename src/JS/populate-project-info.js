@@ -6,7 +6,7 @@ import { interiors, bathrooms } from './projects-dictionary';
 // get the "n" parameter value from the URL string. "n" stands for name
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const projectName = urlParams.get('n');
+const projectName = urlParams.get('id');
 
 // h2, photo container and back-to-main-page btn
 const pageHeading = document.querySelector('.project-name');

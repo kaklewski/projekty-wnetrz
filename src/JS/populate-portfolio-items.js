@@ -14,7 +14,7 @@ function populatePortfolioItems(projects, itemsContainer) {
 		portfolioItem.classList.add('portfolio-item');
 
 		let portfolioItemContent = `
-					<a href="/projekt/?n=${project}"></a>
+					<a href="/projekt/?id=${project}"></a>
 					<div class="portfolio-item__shadow">
 						<span class="portfolio-item__shadow__text">
 							<span>Zobacz cały projekt</span>
