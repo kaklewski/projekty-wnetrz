@@ -13,8 +13,7 @@ const pageHeading = document.querySelector('.project-name');
 const photoWrapper = document.querySelector('.photo-wrapper');
 const backButton = document.querySelector('.back-button');
 
-
-// if project ID is not provided in the URL, redirect to the home page
+// if a project ID is not provided in the URL, redirect to the home page
 if (!projectName) {
 	location.href = '/';
 }
