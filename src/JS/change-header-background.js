@@ -25,23 +25,23 @@ for (let i = 0; i < projects.length / 2; i++) {
 const photos = document.querySelectorAll('.header__photo-container > img');
 
 // i = 1 because the first photo is already visible and the function below should start from the 2nd
-let i = 1;
+let currentPhoto = 1;
 
 // show the next photo and hide the previous one
 function showPhoto() {
 	// fade in the new photo
-	photos[i].classList.remove('fade-out');
-	photos[i].classList.add('fade-in');
+	photos[currentPhoto].classList.remove('fade-out');
+	photos[currentPhoto].classList.add('fade-in');
 
 	// if i = 0, set j to last photo on the list, else j = i - 1
-	let j = i > 0 ? i - 1 : photos.length - 1;
+	let nextPhoto = currentPhoto > 0 ? currentPhoto - 1 : photos.length - 1;
 
 	// fade out the previous photo
-	photos[j].classList.remove('fade-in');
-	photos[j].classList.add('fade-out');
+	photos[nextPhoto].classList.remove('fade-in');
+	photos[nextPhoto].classList.add('fade-out');
 
 	// increase i or set to 0 if maximum is reached
-	i < photos.length - 1 ? i++ : (i = 0);
+	currentPhoto < photos.length - 1 ? currentPhoto++ : (currentPhoto = 0);
 }
 
 // change the photo at intervals
