@@ -1,7 +1,7 @@
 // INFO: this script populates the header section with photos in the background and changes them every couple of seconds
 
 // import the list of interior projects from an external file and make it an array
-import { interiors } from './projects-dictionary';
+import { interiors } from './project-dictionary';
 const projects = Object.keys(interiors);
 
 // container to put the photos in

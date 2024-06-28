@@ -1,7 +1,7 @@
 // INFO: this script populates the portfolio section with project cards
 
 // import the lists of interiors and bathrooms from an external file
-import { interiors, bathrooms } from './projects-dictionary';
+import { interiors, bathrooms } from './project-dictionary';
 
 // containers to put the items in
 const interiorsContainer = document.querySelector('.interiors > .item-wrapper');

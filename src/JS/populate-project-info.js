@@ -1,7 +1,7 @@
 // INFO: this script populates the project page with information (name, page title, photos) based on the project name received as a URL parameter
 
 // import the lists of interiors and bathrooms from an external file
-import { interiors, bathrooms } from './projects-dictionary';
+import { interiors, bathrooms } from './project-dictionary';
 
 // get the "n" parameter value from the URL string. "n" stands for name
 const queryString = window.location.search;
