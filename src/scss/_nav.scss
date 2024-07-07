@@ -8,6 +8,7 @@
 	-moz-box-shadow: var(--shadow);
 	box-shadow: var(--shadow);
 	background-color: var(--bg-transparent);
+	-webkit-backdrop-filter: var(--backdrop-filter);
 	backdrop-filter: var(--backdrop-filter);
 
 	a {

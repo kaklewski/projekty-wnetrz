@@ -65,6 +65,7 @@
 	}
 
 	&__text {
+		width: -moz-fit-content;
 		width: fit-content;
 		margin: 0.1em 0.3em;
 		padding: 0.2em 0.4em;
@@ -73,6 +74,7 @@
 		color: white;
 		font-family: 'Libre Baskerville', serif;
 		font-size: clamp(1rem, 5vw, 3.2rem);
+		-webkit-backdrop-filter: var(--backdrop-filter);
 		backdrop-filter: var(--backdrop-filter);
 	}
 
@@ -88,6 +90,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		line-height: 0;
+		-webkit-backdrop-filter: var(--backdrop-filter);
 		backdrop-filter: var(--backdrop-filter);
 		transition: color 0.3s;
 		cursor: pointer;
