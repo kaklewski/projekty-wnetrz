@@ -17,6 +17,7 @@ function populatePortfolioItems(projects, itemsContainer) {
 		const portfolioItem = portfolioItemTemplate.content.cloneNode(true);
 
 		portfolioItem.querySelector('a').href = `/projekt/?id=${projectName}`;
+		portfolioItem.querySelector('.portfolio-item__badge').textContent = `Projekt ${projectName}`;
 		portfolioItem.querySelector('img').src = `images/${projectName}/1.webp`;
 
 		itemsContainer.appendChild(portfolioItem);
