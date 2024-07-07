@@ -16,6 +16,7 @@ export const interiors = {
 	S011: 10,
 	S010: 7,
 	S009: 9,
+	S026: 14,
 	S008: 6,
 	S007: 9,
 	S006: 9,
