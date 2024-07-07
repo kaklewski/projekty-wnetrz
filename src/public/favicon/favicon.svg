@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="256" height="256">
+	<title>logo</title>
+	<defs>
+		<image width="456" height="456" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGNsYXNzPSJpY29uIGljb24tdGFibGVyIGljb24tdGFibGVyLWFybWNoYWlyLTIiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlPSJjdXJyZW50Q29sb3IiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggc3Ryb2tlPSJub25lIiBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTUgMTB2LTRhMyAzIDAgMCAxIDMgLTNoOGEzIDMgMCAwIDEgMyAzdjQiIC8+PHBhdGggZD0iTTE2IDE1di0yYTMgMyAwIDEgMSAzIDN2M2gtMTR2LTNhMyAzIDAgMSAxIDMgLTN2MiIgLz48cGF0aCBkPSJNOCAxMmg4IiAvPjxwYXRoIGQ9Ik03IDE5djIiIC8+PHBhdGggZD0iTTE3IDE5djIiIC8+PC9zdmc+"/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<path id="Warstwa 1" class="s0" d="m300 598c-164.8 0-298-133.2-298-298 0-164.8 133.2-298 298-298 164.8 0 298 133.2 298 298 0 164.8-133.2 298-298 298z"/>
+	<use id="armchair-2" href="#img1" transform="matrix(.973,0,0,.973,78,78)"/>
+</svg>
